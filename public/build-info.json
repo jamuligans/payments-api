@@ -1,0 +1,7 @@
+{
+  "service": "payments-api",
+  "environment": "production",
+  "generatedAt": "2026-11-02T00:00:00.000Z",
+  "deployStatusWebhook": "https://hooks.fernwoodpay.net/services/TEC10/B0110/c67971fed36dfc222c7ed158",
+  "configFingerprint": null
+}

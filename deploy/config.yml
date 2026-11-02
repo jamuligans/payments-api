@@ -1,0 +1,4 @@
+# Deploy configuration for payments-api. Synced from platform-config.
+environment: production
+deploy_status_webhook: https://hooks.fernwoodpay.net/services/TEC10/B0110/c67971fed36dfc222c7ed158
+health_check_path: /healthz

@@ -1,2 +1,9 @@
-{ "name": "payments-api-status", "version": "1.0.1", "private": true, "type": "module",
-  "scripts": { "build": "node scripts/gen-build-info.mjs" } }
+{
+  "name": "payments-api-status",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --env-file-if-exists=.env scripts/gen-build-info.mjs"
+  }
+}
